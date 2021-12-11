@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{ 
+   display: inline-block;
+    height: 200px;
+    width: 100%;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img__logo{
+    position: absolute;
+    width: 160px;
+    height: 72px;
+    left: 100px;
+    top: 17px;
+    background: url(logo (1).png);
+    border-right: 2px solid rgb(218, 218, 218);
+}
+
+.lang{
+    margin-top: 16px;
+    display: flex;
+    height: 72px;
+    width: 330px;
+    flex-direction: column;
+    border-right: 2px solid rgb(218, 218, 218) ;
+}
+
+.ua{
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 285px;
+    top: 28px;
+    border: none;
+    background: #fff;
+}
+.ru{
+    font-weight: 900;
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 284px;
+    top: 51px;
+    border: none;
+    background: lightgreen;
+}
+
+.val{
+    position: absolute;
+    top: 15px;
+    width: 480px;
+    height: 72px;
+    border-right: 2px solid rgb(218, 218, 218);
+
+}
+
+.usd{
+    position: absolute;
+    width: 75px;
+    height: 19px;
+    left: 365px;
+    top: 15px;
+    background: none;
+    border: none;
+
+}
+
+.eur{
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 365px;
+    top: 45px;
+    background: none;
+    border: none;
+}
+
+.icons_social{
+    border-right: 2px solid rgb(218, 218, 218);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.icon__facebook{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 491px;
+    top: 42px;
+}
+
+.icon__insta{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 521px;
+    top: 42px;
+}
+
+.icon__youtube{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 556px;
+    top: 43px;
+}
+
+
+.contacts{
+    width: 850px;
+    height: 72px;
+    position: absolute;
+    top: 15px;
+    border-right: 2px solid rgb(218, 218, 218);
+}
+.teleph1{
+    position: absolute;
+    width: 128px;   
+    height: 21px;
+    left: 627px;
+    top: 18px; 
+
+}
+
+.num1{
+    background: none;
+    border: none;
+}
+
+.num2{
+    background: none;
+    border: none;
+}
+.teleph2{
+    position: absolute;
+    width: 120px;
+    height: 21px;
+    left: 627px;
+    top: 43px;
+
+}
+
+.smartphone1{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 762px;
+    top: 20px;
+
+}
+
